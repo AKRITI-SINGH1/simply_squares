@@ -1,0 +1,29 @@
+.frame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+    overflow:hidden;
+    background:#020808;
+    color:aliceblue
+
+}
+
+.square{
+    background: #655f69;
+      width: 150px;
+      height: 150px;
+}
+
+.square:hover{
+    background-color: rgb(249, 120, 185);
+}
+
+.frame:hover{
+    background-color: rgb(196, 7, 92);
+}
